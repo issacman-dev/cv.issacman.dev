@@ -1,0 +1,89 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/sinaatalay/rendercv/main/schema.json
+
+cv:
+    name: Man Pak Ki Issac
+    location: Hong Kong
+    email: issac@issacman.dev
+    phone: "+852 6360 9338"
+    website: https://issacman.dev
+    social_networks:
+        - network: LinkedIn
+          username: issacman.dev
+        - network: GitHub
+          username: issacman.dev
+
+    sections:
+        summary:
+            - "Full-stack developer with 3+ years of freelance full-stack development and self-hosted infrastructure experience."
+            - "Highly proficient in TypeScript, Object-Oriented Programming, and modern frameworks."
+            - "Passionate about building secure, scalable architectures and exploring vulnerabilities through CTF challenges and security research."
+
+        experience:
+            - company: Freelancer
+              position: Full-stack Developer
+              start_date: 2023-01
+              end_date: present
+              highlights:
+                  - "Developed and deployed custom web solutions for clients utilizing SvelteKit and Bun."
+                  - "Managed the full software development lifecycle, from requirements gathering to automated deployment with Docker and Cloudflare Pages."
+                  - "Optimized websites to achieve 100/100 SEO and 96/100 Performance scores on Google Lighthouse."
+
+        education:
+            - institution: Hong Kong Metropolitan University
+              area: Computing with Honours in Internet Technology
+              degree: BComp
+              start_date: 2026-09
+              end_date: present
+
+        projects:
+            - name: Private Discord Bot & Virtual Economy
+              highlights:
+                  - "Architected an event-driven bot using Bun, SapphireJS, and TypeScript, deployed via Docker Compose."
+                  - "Developed a complex virtual economy featuring daily rewards, point-based e-commerce, and multiplayer gambling with strict concurrency control in SQLite."
+                  - "Implemented a dynamic i18n system supporting seamless language switching between English and Cantonese."
+
+            - name: Portfolio & Self-Hosted Infrastructure
+              highlights:
+                  - "Self-hosted a high-performance portfolio on a local MacMini server with reverse proxy configurations and a custom SvelteKit CMS."
+                  - "Engineered a custom TypeScript parser to simulate Jyutping typing animations, decoupling rendering logic from the backend."
+                  - "Designed a hidden authentication honeypot triggered by the Konami Code to demonstrate Web Exploitation awareness."
+                  - "Automated CV generation and deployment via GitHub Actions CI/CD pipeline using RenderCV."
+
+            - name: Cybersecurity Research & CTF Writeups
+              highlights:
+                  - "Authored in-depth technical writeups on Digital Forensics and Incident Response (DFIR)."
+                  - "Performed reverse engineering on WebAssembly (WASM) modules using Node.js memory buffer extraction to bypass client-side validation."
+
+        achievements:
+            - name: CTF Competitions
+              start_date: 2023-01
+              end_date: present
+              highlights:
+                  - 'Founder & Team Captain of CTF Team "Silly Security"'
+                  - "PUCTF 2026 Open Category 5th Place"
+                  - "Active Competitor of HKCERT CTF, CUHK CTF, PUCTF"
+            - name: CodeCombat
+              date: 2023
+              highlights:
+                  - Ace of Coders Asia Tournament (2nd Place)
+                  - Global CodeQuest (First Prize)
+
+        skills:
+            - label: Languages
+              details: TypeScript, JavaScript, Node.js, Bun, Python, SQL
+            - label: Frontend
+              details: Svelte, SvelteKit, HTML5, CSS3, Sass, Tailwind CSS
+            - label: DevOps & Infra
+              details: Docker, Docker Compose, GitHub Actions (CI/CD), Linux, Nginx, Self-hosting
+            - label: Cybersecurity
+              details: Web Exploitation, OSINT, Reverse Engineering (WASM), Wireshark, Burp Suite
+            - label: Spoken Languages
+              details: Cantonese (Native), Mandarin (Fluent), English (Proficient)
+
+design:
+    theme: classic
+    colors:
+        name: "#1f1f1f"
+        section_titles: "#1f1f1f"
+    entries:
+        degree_width: 1.5cm
